@@ -1,0 +1,28 @@
+.pagination_btns{
+    width: auto;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination_btns a {
+    padding: 10px;
+    color: #7BC0E3;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.pagination_btns a:hover {
+    background: #7BC0E3;
+    color: #fff;
+}
+
+.pagination_active a{
+    background: #7BC0E3;
+    color: #fff;
+}

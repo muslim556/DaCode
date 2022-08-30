@@ -1,0 +1,32 @@
+<p>Testimonals</p>
+        <p>Our Happy Clients</p>
+        <div id="home_sec5_card">
+          <div id="leftarrow_card">
+            <img src={leftarrow} alt="" />
+          </div>
+          <div id="home_sec5_text_card">
+            <p>5.0</p>
+            <div id="home_star_card">
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+            </div>
+            <p>
+              We tried agencies brfore we found daCode. Has been a pleasure to
+              work with and will soon start the next project with our second
+              brand
+            </p>
+          </div>
+          <div id="leftarrow_card">
+            <img src={rightarrow} alt="" />
+          </div>
+        </div>
+        <div id="home_user_card">
+          <img src={user1} alt="" />
+          <img src={user2} alt="" />
+          <img src={user3} alt="" />
+          <img src={user4} alt="" />
+          <img src={user5} alt="" />
+        </div>

@@ -1,0 +1,21 @@
+Blog.filter(
+            (item) => item.paragraph.toLowerCase().indexOf(search) !== -1
+          ).length === 0 && search !== ""
+            ? ""
+            : Blog.filter(
+                (item) => item.paragraph.toLowerCase().indexOf(search) !== -1
+              ).length === 0 && search === ""
+            ? Blog.map((item, i) => (
+                <div id="blog_mini_cards" key={item.id}>
+                  <div id="blog_img_card">
+                    <img src={item.img} alt="" />
+                    <span>{item.date}</span>
+                  </div>
+                  <div id="blog_mini_cards_text">
+                    <p>{item.paragraph}</p>
+                    <p>{item.text}</p>
+                    <button onClick={() => show(item)}>Read More</button>
+                  </div>
+                </div>
+              ))
+            : 
